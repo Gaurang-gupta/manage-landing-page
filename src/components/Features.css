@@ -1,0 +1,123 @@
+.features__wrapper{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: auto auto;
+    color: hsl(233, 12%, 13%);
+}
+
+.features__intro__para{
+    width: 60%;
+    color: #c9c8ce;
+    margin-top: 40px;
+    line-height: 1.5;
+}
+
+.features__intro__heading{
+    width: 80%;
+    font-size: 40px;
+}
+
+.features__card{
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+}
+
+.features__card__number{
+    padding: 10px 20px;
+    background-color: #f3603c;
+    border-radius: 20px;
+    color: white;
+    width: 8%;
+    margin-right: 25px;
+}
+
+.feature__card__heading{
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.space{
+    margin-bottom: 40px;
+}
+
+.feature__card__para{
+    color: #c9c8ce;
+}
+
+.features__card__title__container{
+    padding-bottom: 20px;
+}
+
+.features__card__content{
+    width: 75%;
+    margin-left: 14%;
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+
+@media (max-width: 376px){
+    .features__wrapper{
+        grid-template-columns: auto;
+        row-gap: 30px;
+        margin-top: 20px;
+    } 
+
+    .features__cards{
+        text-align: center;
+    }   
+
+    .features__card{
+        margin: 0;
+        width: 100%;
+    }
+
+    .features__card__number{
+        margin: 0;
+        padding: 5px 10px;
+        border-radius: 18px;
+        font-size: 12px;
+    }
+
+    .features__card__title__container{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        background-color: #fff1ea;
+        border-radius: 18px;
+        padding: 0;
+    }
+
+    .feature__card__heading{
+        font-size: 14px;
+        flex: 1;
+        margin: 0;
+    }
+
+    .features__intro{
+        width: 100%;
+    }
+
+    .features__intro__heading{
+        width: 100%;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .features__intro__para{
+        width: 100%;
+        margin-top: 20px;
+        line-height: 2;
+    }
+
+    .features__card__content{
+        width: 100%;
+        text-align: left;
+        font-size: 12px;
+        margin-left: 0;
+        margin-top: 15px;
+        line-height: 2;
+    }
+}

@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap');
+body {
+  font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.app{
+  background-image: url("../public/images/bg-tablet-pattern.svg"), url("../public/images/bg-tablet-pattern.svg");
+  background-repeat: no-repeat;
+  height: 210vh;
+  background-size: 770px, 600px;
+  background-position: top -15rem right -11rem, bottom -8rem left -23rem;
+}
+
+@media(max-width: 376px){
+  .app{
+    background-size: 500px, 500px;
+    background-position: top -7rem right -11rem, top 30rem right -11rem;
+    padding-top: 10px;
+  }
+}
